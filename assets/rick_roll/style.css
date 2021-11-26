@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-content {
+    height: 100%;
+    width: 100%;
+    background: #21b5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: solid;
+    border-radius: 45px;
+    border-color: white;
+    padding: 20px 25px;
+    background: #007bff;
+    color: white;
+    box-shadow: 0 0 20px white;
+    transition: all 500ms ease;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    border-color: #007bff;
+    background: white;
+    color: #007bff;
+    box-shadow: 0 0 20px #007bff;
+}
+
+button:hover a {
+    color: #007bff;
+}

@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Hilfe</title>
+    <title>Job Hilfe | Jetzt Bewerben</title>
     <link rel="stylesheet" href="assets/menu/menu.css">
     <script src="assets/menu/menu.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/icons/icon.png">
+    <link rel="shortcut icon" href="../icons/icon.png">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -17,40 +17,22 @@
 </head>
 <body>
 
-    <!-- <div class="menu">
-
-        <div class="startseite_btn">Startseite</div>
-        <div class="handwerklich_geschickt_btn">handwerklich geschickt</div>
-        <div class="kreativ_fantasievoll_btn">kreativ fantasievoll</div>
-        <div class="rechnen_und_messen_btn">rechnen und messen</div>
-        <div class="pflanzen_und_tiere_pflegen_btn">pflanzen und tiere pflegen</div>
-        <div class="reden_und_beraten_btn">reden und beraten</div>
-        <div class="ordentlich_und_gut_organisiert_btn">ordentlich und gut organisiert</div>
-        <div class="hilfsbereit_einfühlsam_btn">hilfsbereit einfühlsam</div>
-
-    </div> -->
-
-
     <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
           <div class="mdl-layout__header-row">
             <!-- Title -->
-            <span class="mdl-layout-title">Job Hilfe | Startseite</span>
+            <span class="mdl-layout-title">Job Hilfe | Jetzt Bewerben</span>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation. We hide it in small screens. -->
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-                <a class="mdl-navigation__link" href="#">Startseite</a>
-                <a class="mdl-navigation__link" href="assets/rick_roll/index.html">Jetzt Bewerben</a>
-                <!-- <a class="mdl-navigation__link" href="">handwerklich geschickt</a> -->
-                <!-- <a class="mdl-navigation__link" href="">kreativ fantasievoll</a> -->
-                <!-- <a class="mdl-navigation__link" href="">rechnen und messen</a> -->
+                <a class="mdl-navigation__link" href="#">Jetzt Bewerben</a>
             </nav>
           </div>
         </header>
         <div class="mdl-layout__drawer">
-          <span class="mdl-layout-title">Job Hilfe | Startseite</span>
+          <span class="mdl-layout-title">Job Hilfe | Jetzt Bewerben</span>
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="#">Startseite</a>
             <a class="mdl-navigation__link" href="assets/weitere_websiten/handwerklich geschickt/index.html">handwerklich geschickt</a>
@@ -63,10 +45,23 @@
           </nav>
         </div>
         <main class="mdl-layout__content">
-          <div class="page-content"><!-- Your content goes here --></div>
+          <div class="page-content">
+
+            <div id="main">
+
+                <button id="a"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Jetzt Bewerben</a></button>
+
+            </div>
+
+          </div>
         </main>
     </div>
 
 
+    <script defer>
+        document.getElementById('a').onclick = function () {
+            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        }
+    </script>
 </body>
 </html>
