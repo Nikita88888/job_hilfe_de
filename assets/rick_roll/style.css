@@ -10,31 +10,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
-button {
+#a {
+    color: #fff;
     border: solid;
     border-radius: 45px;
     border-color: white;
     padding: 20px 25px;
     background: #007bff;
-    color: white;
     box-shadow: 0 0 20px white;
     transition: all 500ms ease;
-}
-
-button a {
     text-decoration: none;
-    color: white;
 }
 
-button:hover {
+#a:hover {
     border-color: #007bff;
     background: white;
     color: #007bff;
     box-shadow: 0 0 20px #007bff;
-}
-
-button:hover a {
-    color: #007bff;
 }

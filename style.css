@@ -12,3 +12,22 @@
 } */
 
 /* Das ist CSS */
+
+#a {
+    color: #fff;
+    border: solid;
+    border-radius: 45px;
+    border-color: white;
+    padding: 20px 25px;
+    background: #007bff;
+    box-shadow: 0 0 20px white;
+    transition: all 500ms ease;
+    text-decoration: none;
+}
+
+#a:hover {
+    border-color: #007bff;
+    background: white;
+    color: #007bff;
+    box-shadow: 0 0 20px #007bff;
+}
